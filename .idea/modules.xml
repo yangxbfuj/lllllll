@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gxwlearn.iml" filepath="$PROJECT_DIR$/gxwlearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gxwlearn_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gxwlearn_main.iml" group="gxwlearn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gxwlearn_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gxwlearn_test.iml" group="gxwlearn" />
+    </modules>
+  </component>
+</project>
