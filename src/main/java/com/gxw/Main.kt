@@ -15,6 +15,7 @@ import javafx.scene.text.Font
 import javafx.scene.text.FontWeight
 import javafx.scene.text.Text
 import javafx.stage.Stage
+import java.io.File
 
 class Main : Application() {
 
@@ -56,5 +57,7 @@ class Main : Application() {
         grid.add(actionTarget, 1, 6)
         btn.setOnAction { actionTarget.text = "user : ${userTextField.text}  password : ${pwBox.text}" }
         primaryStage.show()
+        val file = File(this.javaClass.classLoader.getResource("").file)
+        scene.stylesheets.add(ClassLoader.getSystemClassLoader().getResource("css/Main.css").toExternalForm())
     }
 } 
